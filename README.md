@@ -1,5 +1,3 @@
-Here's your reformatted markdown document with the Table of Contents updated. I've also incorporated the changes you wanted in the Requirements and Important Information sections.
-
 # Alpaca Stock Screener
 
 The Alpaca Stock Screener is a Python tool designed to be used with LangChain agents, enabling stock analysis using various technical indicators. The tool takes a natural language query as input and returns a list of stocks whose technical indicators match the query.
