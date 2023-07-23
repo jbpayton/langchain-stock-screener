@@ -2,11 +2,13 @@
 
 The Alpaca Stock Screener is a Python tool designed to be used with LangChain agents, enabling stock analysis using various technical indicators. The tool takes a natural language query as input and returns a list of stocks whose technical indicators match the query.
 
-This tool uses an internal dataframe for this data and handles operations internally. Note that this tool does not handle queries involving fundamental indicators like earnings growth or debt-to-equity ratio.
+This tool uses an internal dataframe for this data and handles operations internally. Note that this tool does not handle queries involving fundamental indicators like earnings growth or debt-to-equity ratio. Data is all acquired using the Alpaca Markets Bars API.
 
 From an architecture standpoint, this tool encapsulates a langchain DataFrame agent making use of the python-repl.
 
 For more information on LangChain, refer to the [LangChain documentation](https://python.langchain.com/)
+
+For more information on the Alpaca algorithmic trading platform, please refer to the [Alpaca Markets website](https://alpaca.markets/)
 
 ## Table of Contents
 - [Requirements](#requirements)
